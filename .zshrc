@@ -120,5 +120,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 alias gl="watch -c git -c color.ui=always log --decorate --graph --oneline --branches={'*ethanlook*','*main*'}"
 alias gs="watch -c git -c color.ui=always status -s"
 
+alias ff="nvim -c 'Telescope find_files hidden=true'"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
