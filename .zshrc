@@ -125,5 +125,7 @@ alias vi="nvim"
 alias ff="nvim -c 'Telescope find_files hidden=true'"
 export EDITOR=nvim
 
+eval $(thefuck --alias)
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
