@@ -25,6 +25,7 @@ brew install thefuck
 brew install neovim
 brew install ripgrep
 brew install fzf
+brew install watch
 ln -s ~/src/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/src/dotfiles/.zshrc ~/.zshrc
 ln -s ~/src/dotfiles/.config/nvim ~/.config/nvim
