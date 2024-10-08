@@ -20,6 +20,7 @@ git clone git@github.com:ethanlook/dotfiles.git
 Follow [this blog](https://www.josean.com/posts/terminal-setup) to install most of the things you like. Then:
 
 ```
+brew install tmux
 brew install thefuck
 brew install neovim
 brew install ripgrep
