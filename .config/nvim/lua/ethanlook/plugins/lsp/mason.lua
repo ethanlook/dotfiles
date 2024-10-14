@@ -32,7 +32,7 @@ return {
 				"cssls",
 				"tailwindcss",
 				"svelte",
-        "volar",
+				"volar",
 				"lua_ls",
 				"graphql",
 				"emmet_ls",
@@ -52,6 +52,7 @@ return {
 				"black", -- python formatter
 				"pylint", -- python linter
 				"eslint_d", -- js linter
+				"actionlint",
 			},
 		})
 	end,
